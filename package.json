@@ -1,0 +1,46 @@
+{
+  "name": "v-ssr-gen",
+  "version": "1.0.1",
+  "description": "CLI tool for generating Vue 3 SSR components with TypeScript/JavaScript support",
+  "main": "index.js",
+  "bin": {
+    "v-ssr-gen": "bin/v-ssr-gen.js"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avishaidotan/v-ssr-gen.git"
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "ssr",
+    "component",
+    "generator",
+    "cli",
+    "typescript",
+    "javascript",
+    "npx"
+  ],
+  "author": "Avishai Dotan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/avishaidotan/v-ssr-gen/issues"
+  },
+  "homepage": "https://github.com/avishaidotan/v-ssr-gen#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "peerDependencies": {
+    "vue": "^3.5.13"
+  },
+  "preferGlobal": true
+}
