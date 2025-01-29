@@ -4,7 +4,7 @@
   "description": "CLI tool for generating Vue 3 SSR components with TypeScript/JavaScript support",
   "main": "index.js",
   "bin": {
-    "v-ssr-gen": "bin/v-ssr-gen.js"
+    "v-ssr-gen": "bin/index.js"
   },
   "files": [
     "bin/",
